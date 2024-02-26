@@ -1,1 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Pokemon API</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1 class="pokemon">Pokémon API</h1>
+    </header>
 
+    <div class="container">
+      <!-- A Search through a the list. -->
+      <form>
+        <input
+          type="search"
+          id="pokemon-name"
+          placeholder="Search pokemon..."
+        />
+        <input type="submit" value="Search Pokemon :3 !" class="search-bar" />
+        <img
+          src=""
+          alt="pokemon sprite"
+          id="pokemon-sprite"
+          style="display: none"
+        />
+      </form>
+    </div>
+
+    <div class="grid-container" id="pokemon-grid"></div>
+    <main>
+      <article>
+        <h2>Pokémon Characters UwU</h2>
+      </article>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
