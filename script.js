@@ -43,7 +43,7 @@ document.querySelector("form").addEventListener("submit", function (event) {
 
 async function fetchPokemon() {
   try {
-    const response = await fetch("https://pokeapi.co/api/v2/pokemon?limit=20"); // Fetch list of Pokémon
+    const response = await fetch("https://pokeapi.co/api/v2/pokemon?limit=200"); // Fetch list of Pokémon
     const data = await response.json();
     const pokemons = data.results; // Extract Pokémon data from the response
 
